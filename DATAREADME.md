@@ -47,10 +47,22 @@ Nos dimos a la tarea de investigar diversos lugares virtuales, a través de los 
 ## Obteniendo respuestas
 Una vez que obtuvimos las respuestas, las vaciamos en una [hoja de cálculo](https://docs.google.com/spreadsheets/d/1kRUAxB8K72SgsEe1dhc8HJaznY5x7wkA8P6vc4u_ut0/edit?usp=sharing) y algunas fueron graficadas para poder comprenderlas de mejor forma. 
 
-![pregunta 1]()
-![pregunta 2]()
-![pregunta 3]()
-![pregunta 4]()
-![pregunta 5]()
+### Pregunta 1
+![pregunta 1](./imagenes/pregunta1.jpg)
+### Pregunta 2
+![pregunta 2](./imagenes/pregunta2.jpg)
+### Pregunta 3
+![pregunta 3](./imagenes/pregunta3.jpg)
+### Pregunta 4
+![pregunta 4](./imagenes/pregunta4.jpg)
+### Pregunta 5
+![pregunta 5](./imagenes/pregunta5.jpg)
 
 ## Creando el prototipo
+
+Con base en las respuestas enviadas a través de los jugadores que encontramos en los diversos tipos de grupos y foros, realizamos un prototipo que presentará:
+- Página principal con el menú para que elijan qué información quieren ver, así como un link para que pueda ingresar al juego[página principal](./)
+- Página secundaria con los mejores campeones, elegidos por ellos y algunas características detalladas que también determinaron ellos.[mejores campeones](./)
+- Página secundaria con los campeones por orden alfabetico [campones orden alfabetico](./imagenes/prototordenalfabetico.jpeg)
+- Página secundaria con los campeones por tipo de rol [prottipocampeon](./imagenes/prottipocampeon.jpeg)
+
