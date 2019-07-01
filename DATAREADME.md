@@ -61,8 +61,8 @@ Una vez que obtuvimos las respuestas, las vaciamos en una [hoja de cálculo](htt
 ## Creando el prototipo
 
 Con base en las respuestas enviadas a través de los jugadores que encontramos en los diversos tipos de grupos y foros, realizamos un prototipo que presentará:
-- Página principal con el menú para que elijan qué información quieren ver, así como un link para que pueda ingresar al juego[página principal](./imagenes/principal.jpg)
-- Página secundaria con los mejores campeones, elegidos por ellos y algunas características detalladas que también determinaron ellos.[página favoritos](./imagenes/favoritos.jpg)
-- Página secundaria con los campeones por orden alfabetico [alfabetico](./imagenes/alfabetico.jpg)
-- Página secundaria con los campeones por tipo de rol [roles](./imagenes/roles.jpg)
+- Página principal con el menú para que elijan qué información quieren ver, así como un link para que pueda ingresar al juego![página principal](./imagenes/principal.jpg)
+- Página secundaria con los mejores campeones, elegidos por ellos y algunas características detalladas que también determinaron ellos.![página favoritos](./imagenes/favoritos.jpg)
+- Página secundaria con los campeones por orden alfabetico ![alfabetico](./imagenes/alfabetico.jpg)
+- Página secundaria con los campeones por tipo de rol ![roles](./imagenes/roles.jpg)
 
