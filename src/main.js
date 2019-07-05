@@ -47,12 +47,6 @@ console.log(filterBest1);*/
 //   })
 //   console.log(FighterChamps)
 
-  // const best1= [];
-  // for (let i = 0; i<arr.length; i++) {
-  //   var recorrerArr = arr[i];
-  //   if (recorrerArr = tags[0]) {
-  //     best1.push(recorrerArr)
-  
-  //   }
-  // }
-  // console.log(best1);
+
+printData()
+
