@@ -1,3 +1,8 @@
+.disappear{
+    display: none
+
+}
+
 body {
 margin: 0;
 padding: 0;
@@ -56,3 +61,4 @@ color: #fff;
 
 .pie-pag{
 font-family: arial;
+

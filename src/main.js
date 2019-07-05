@@ -1,42 +1,13 @@
-//usar paratodo tu código que tenga que ver con mostrar los datos en la pantalla. Con esto nos referimos básicamente a la interacción con el DOM. Operaciones como creación de nodos, registro de manejadores de eventos (event listeners o event handlers), ....
+  //usar paratodo tu código que tenga que ver con mostrar los datos en la pantalla. Con esto nos referimos básicamente a la interacción con el DOM. Operaciones como creación de nodos, registro de manejadores de eventos (event listeners o event handlers), ....
 const filterData = () => {
   const arr = Object.values(LOL.data);
-  
   const newData = arr.filter( champ => champ.tags[0] == 'Support' )
   console.log(newData)
-// const FighterChamps = []
-//   arr.forEach(champ => { 
-//     const  rol = champ.tags[0]
-//     if(rol == 'Mage'){
-//       FighterChamps.push(champ)
-//     }
-//   })
-//   console.log(FighterChamps)
-
-  // const best1= [];
-  // for (let i = 0; i<arr.length; i++) {
-  //   var recorrerArr = arr[i];
-  //   if (recorrerArr = tags[0]) {
-  //     best1.push(recorrerArr)
-  
-  //   }
-  // }
-  // console.log(best1);
-
 }
-
 filterData()
-/*const filterBest1 = [];
-for (let i= 0; i< best1.length; i++){
-    if(best1[i]info.indexOf([1]) {
-      filterBest1.push(best1[i].attack)
-    }
-}
-console.log(filterBest1);*/
 
 const root = document.getElementById('root')
 const data = LOL.data
-
 const printData= () => {
 
 let string = ''
@@ -56,10 +27,25 @@ for (const key in data) {
     }
     
 }
-
-
 root.innerHTML = string
 }
+printData()
+/*const filterBest1 = [];
+for (let i= 0; i< best1.length; i++){
+    if(best1[i]info.indexOf([1]) {
+      filterBest1.push(best1[i].attack)
+    }
+}
+console.log(filterBest1);*/
+
+// const FighterChamps = []
+//   arr.forEach(champ => { 
+//     const  rol = champ.tags[0]
+//     if(rol == 'Mage'){
+//       FighterChamps.push(champ)
+//     }
+//   })
+//   console.log(FighterChamps)
 
 
 printData()
