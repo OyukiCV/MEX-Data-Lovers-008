@@ -1,4 +1,24 @@
   //usar paratodo tu código que tenga que ver con mostrar los datos en la pantalla. Con esto nos referimos básicamente a la interacción con el DOM. Operaciones como creación de nodos, registro de manejadores de eventos (event listeners o event handlers), ....
+/*const campeones= document.getElementById("campeones");
+const mostrarCampeones=""
+campeones.addEventListener("click", ()=> {
+
+const root = document.getElementById('root');
+root.innerHTML = mostrarCampeones
+
+printData()
+
+})*/
+
+const mostrarCampeones=document.getElementById("campeones");
+campeones.addEventListener("click",()=> {
+
+function mostrar(){
+  mostrarCampeones=document.getElementById('root').innerHTML = 'string';}
+}
+
+
+
 const filterData = () => {
   const arr = Object.values(LOL.data);
   const newData = arr.filter( champ => champ.tags[0] == 'Support' )
@@ -25,8 +45,11 @@ for (const key in data) {
     <img src="${img}" alt="">
   </div>`
     }
-    
+
 }
+
+
+
 root.innerHTML = string
 }
 printData()
@@ -39,7 +62,7 @@ for (let i= 0; i< best1.length; i++){
 console.log(filterBest1);*/
 
 // const FighterChamps = []
-//   arr.forEach(champ => { 
+//   arr.forEach(champ => {
 //     const  rol = champ.tags[0]
 //     if(rol == 'Mage'){
 //       FighterChamps.push(champ)
@@ -49,4 +72,3 @@ console.log(filterBest1);*/
 
 
 printData()
-
