@@ -1,5 +1,5 @@
   //usar paratodo tu código que tenga que ver con mostrar los datos en la pantalla. Con esto nos referimos básicamente a la interacción con el DOM. Operaciones como creación de nodos, registro de manejadores de eventos (event listeners o event handlers), ....
-const campeones= document.getElementById("campeones");
+/*const campeones= document.getElementById("campeones");
 const mostrarCampeones=""
 campeones.addEventListener("click", ()=> {
 
@@ -8,7 +8,14 @@ root.innerHTML = mostrarCampeones
 
 printData()
 
-})
+})*/
+
+const mostrarCampeones=document.getElementById("campeones");
+campeones.addEventListener("click",()=> {
+
+function mostrar(){
+  mostrarCampeones=document.getElementById('root').innerHTML = 'string';}
+}
 
 
 
