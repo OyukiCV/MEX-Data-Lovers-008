@@ -1,135 +1,142 @@
-<style>
 @import url('https://fonts.googleapis.com/css?family=PT+Serif:400,700&display=swap');
-</style>
 .disappear{
-    display: none
-
+display: none
 }
-
-body {
+/**/
+body, html{
 margin: 0;
 padding: 0;
-}
-
-
-html{
 background: url("imagenes/fondo1.jpg");
 min-height: 100%;
 background-size: cover;
+background-attachment: fixed;
+z-index: 0;
 }
-
-
 .menu-logo{
 position: absolute;
 }
-
 .pleca-sup {
 background: #0C181F;
 text-align: center;
 height: 130px;
-
-
 }
 #logo-lol  {
 width: 250px;
 margin-top: -8px;
-
 }
-
-
 p.text{
-	font-family:PT Serif bold;
-
-	font-size:2rem ;
-	color:#C8A971 ;
-	margin-top: 5px;
-	margin-bottom: 5px;
-
-
+font-family:PT Serif bold;
+font-weight: bold;
+font-size:2rem ;
+color:#C8A971 ;
+margin-top: 5px;
+margin-bottom: 5px;
 }
-
 .principal{
-
-	display: flex;
-	justify-content: space-around;
+display: flex;
+justify-content: space-around;
 }
-
 .menu{
-	float: left;
-	padding: 100px 0px 80px 0px;
-	width: min-content;
-	height: min-content;
+float: left;
+padding: 100px 0px 80px 0px;
+width: min-content;
+height: min-content;
 }
 .jugar-lol{
-	float: left;
-	padding: 100px 0px 0px 0px;
-	}
-
-
-
-.favoritos{
-       float: left;
-       padding: 100px 0px 80px 0px;
-        }
-
-.btn{
-	font-family:PT Serif ;
-	font-weight: bold;
-	font-size:2rem ;
-	border: 3px solid #33CCCC;
-	background-color:#0C181F; 
-	color:#C8A971 ;
-	line-height: 50px;
-	text-align: center;
-	width: 150px;
-	margin-top: -3px;
-
+float: left;
+padding: 100px 0px 0px 0px;
 }
-
+.favoritos{
+float: left;
+padding: 100px 0px 80px 0px;
+}
+.btnLol{
+font-family:PT Serif ;
+font-weight: bold;
+font-size:2rem ;
+border: 3px solid #33CCCC;
+background-color:#0C181F;
+color:#C8A971 ;
+line-height: 50px;
+text-align: center;
+width: 220px;
+margin-top: -3px;
+cursor: pointer;
+}
 table{
-	text-align: center;
-	border-collapse: collapse;
-	border: #33CCCC 3px solid;
-	background-color:#0C181F;
-
+text-align: center;
+border-collapse: collapse;
+border: #33CCCC 3px solid;
+background-color:#0C181F;
 }
 tr{
-	border:#33CCCC 3px solid;
-	text-align: center;
-	margin left: 5px;
+border:#33CCCC 3px solid;
+text-align: center;
+
 }
 th{
-	margin: 5px;
+margin: 5px;
 }
- td{
-	 text-align: center;
-}
-
-.pie {
-bottom: 10px;
-height: 50px;
-background: #0C181F;
+td{
 text-align: center;
-position:fixed;
-color: #fff;
-font-family: arial;
 }
-
-
-
-.roles{
+.categoria{
 background: #2589AD;
 border: 6px solid #33CCCC;
 text-align: center;
 height: 80px;
 margin-top: 80px;
-
 }
 h2{
-	font-family:PT Serif bold ;
-	font-weight: bold;
-	font-size: 3rem;
-	color: white;
-	text-align: center;
-	margin-top: 5px;
+font-family:PT Serif bold ;
+font-weight: bold;
+font-size: 3rem;
+color: #C8A971;
+text-align: center;
+margin-top: 8px;
+}
+h3{
+font-family:PT Serif bold ;
+font-weight: bold;
+font-size: 1.5rem;
+text-align: center;
+margin-top: 8px;
+color: black;
+}
+p{
+font-family: sans-serif;
+color: black;
+
+}
+/**/
+.container{
+margin:2rem;
+padding-left: 7%;
+
+}
+.champsCard {
+margin: 1em;
+color: #ffffff;
+text-align:center;
+border: white solid ;
+background: #b89960;
+width: 200px;
+height: 155px;
+padding: 25px;
+display: inline-block;
+}
+
+.champsCard:hover{-webkit-transform:scale(1.2);transform:scale(1.2);}
+
+.pie{
+font-family: arial;
+text-align: center;
+background:#0C181F;
+bottom: 0px;
+left: 0px;
+position:fixed;
+width: 100%;
+height: 45px;
+padding-top: 25px;
+color: #fff;
 }

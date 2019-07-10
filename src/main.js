@@ -69,6 +69,3 @@ console.log(filterBest1);*/
 //     }
 //   })
 //   console.log(FighterChamps)
-
-
-printData()
