@@ -38,7 +38,7 @@ justify-content: space-around;
 }
 .menu{
 float: left;
-padding: 100px 0px 80px 0px;
+padding: 100px 0px 80px 80px;
 width: min-content;
 height: min-content;
 }
@@ -62,6 +62,13 @@ text-align: center;
 width: 220px;
 margin-top: -3px;
 cursor: pointer;
+}
+
+.btnLol:hover{
+  color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0px 0px 8px 1px #33cccc;
+  transition: all 0.2s ease;
+
 }
 table{
 text-align: center;
@@ -127,6 +134,17 @@ display: inline-block;
 }
 
 .champsCard:hover{-webkit-transform:scale(1.2);transform:scale(1.2);}
+
+.abc-z{
+ width: 100px;
+ height: 40px;
+font-family:PT Serif bold ;
+font-weight: bold;
+font-size: 1.5rem;
+border: 2px solid #33CCCC;
+color: #C8A971;
+background-color: #0C181F;
+}
 
 .pie{
 font-family: arial;

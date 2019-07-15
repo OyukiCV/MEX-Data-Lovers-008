@@ -9,21 +9,29 @@
   </head>
   <body >
     <div class="pleca-sup">
-      <img id="logo-lol"  src="imagenes/logo-lol.png" alt="lol">
+      <img id="logo-lol"  src="imagenes/logo-lol.png" alt="lol" onclick="location.href='index.html'">
     </div>
     <!--- menu roles lado izquierdo --->
     <div class="categoria">
       <h2>Campeones</h2>
     </div>
+    <div class="principal">
+    <div class="menu">
+      <select name="az-za" id="az-za" class="abc-z" >
+        <option value="AZ">A-Z</option>
+        <option value="ZA">Z-A</option>
+      </select>
+    </div>
     <!---probando divs y funcion en tarjetas --->
     <div class="container">
       <div class="champs" id="root" ></div>
     </div>
-      <div class="pie">
-        Riot games
-      </div>
-      <script src="./data/lol/lol.js"></script>
-      <script src="data.js"></script>
-      <script src="main2.js"></script>
-    </body>
-  </html>
+    </div>
+    <div class="pie">
+      Riot games
+    </div>
+    <script src="./data/lol/lol.js"></script>
+    <script src="data.js"></script>
+    <script src="main2.js"></script>
+  </body>
+</html>

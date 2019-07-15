@@ -1,71 +1,53 @@
-  //usar paratodo tu código que tenga que ver con mostrar los datos en la pantalla. Con esto nos referimos básicamente a la interacción con el DOM. Operaciones como creación de nodos, registro de manejadores de eventos (event listeners o event handlers), ....
-/*const campeones= document.getElementById("campeones");
-const mostrarCampeones=""
-campeones.addEventListener("click", ()=> {
-
-const root = document.getElementById('root');
-root.innerHTML = mostrarCampeones
-
-printData()
-
-})*/
-
-const mostrarCampeones=document.getElementById("campeones");
-campeones.addEventListener("click",()=> {
-
-function mostrar(){
-  mostrarCampeones=document.getElementById('root').innerHTML = 'string';}
-}
+const btnLol = document.getElementsByClassName('btnLol');
 
 
+//div root donde se imprime toda la data
+const root = document.getElementById('root') 
+const data = LOL.data //data de Lol
 
-const filterData = () => {
-  const arr = Object.values(LOL.data);
-  const newData = arr.filter( champ => champ.tags[0] == 'Support' )
-  console.log(newData)
-}
-filterData()
 
-const root = document.getElementById('root')
-const data = LOL.data
+//imprime toda la data 
 const printData= () => {
-
 let string = ''
+
 for (const key in data) {
-    if (data.hasOwnProperty(key)) {
-        const element = data[key];
-        const name = element.name
-        const rol = element.tags[0]
-        const attack = element.info.attack
-        const img  = element.img
-    string += ` <div>
-    <h3>${name}</h3>
-    <p>${rol}</p>
-    <p>Ataque : ${attack}</p>
-    <img src="${img}" alt="">
-  </div>`
-    }
-
+  if (data.hasOwnProperty(key)) {
+    const element = data[key];
+    const name = element.name
+    const rol = element.tags[0]
+    const attack = element.info.attack
+    const bestPower = element.stats.mp
+    const bestPower2 = element.stats.armor
+    const img = element.img
+    string += `<div class="champsCard">
+  <img src="${img}" alt="">
+  <h3>${name}</h3>
+  <p>${rol}</p>
+  <p>Ataque: ${attack}</p>
+</div>`
+  }
 }
-
-
-
-root.innerHTML = string
+root.innerHTML = string //imprime en navegador
 }
 printData()
-/*const filterBest1 = [];
-for (let i= 0; i< best1.length; i++){
-    if(best1[i]info.indexOf([1]) {
-      filterBest1.push(best1[i].attack)
-    }
-}
-console.log(filterBest1);*/
 
-// const FighterChamps = []
-//   arr.forEach(champ => {
-//     const  rol = champ.tags[0]
-//     if(rol == 'Mage'){
-//       FighterChamps.push(champ)
-//     }
-//   })
-//   console.log(FighterChamps)
+//filtra por roles, aun no funciona
+ let newData= ''
+const filterData = () => {
+ 
+ 
+  for (let i = 0; i < btnLol.length; i++) {
+    btnLol[i].addEventListener("click",() =>{
+
+ const arr = Object.values(LOL.data);
+ const newData = arr.filter(champ => champ.tags[(0,1)] == 'Assassin')
+  //newData+=`<div class="champsCard">`
+  console.log(newData)
+  
+
+root.innerHTML=newData
+    })
+  
+}
+}
+filterData(newData)
