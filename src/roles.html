@@ -4,38 +4,32 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="imagenes/favicon.ico" rel="icon" type="image/x-icon" />
-    <title>Data Lovers2</title>
+    <title>roles</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body  class="fondo">
-    <div id="root"></div>
-    
+  <body>
     <div class="pleca-sup">
-      
-      <img id="logo-lol"  src="imagenes/logo-lol.png" alt="lol">
-      
+      <img id="logo-lol"  src="imagenes/logo-lol.png" alt="lol" onclick="location.href='index.html'">
     </div>
     <!--- menu roles lado izquierdo --->
-<div class="roles">
-<h2>Tipo de campeones</h2>
-</div>
-    <div class="roles-camp">
-
-
-    
-        <button class="btn"> Roles</button>
-        <button class="btn" onclick="" id="campeones">A-Z</button>
-        <button class="btn">Noticias</button>
-    
-     
-   
-
+    <div class="categoria">
+      <h2>Roles</h2>
+    </div>
+    <div class="principal">
+      <div class="menu">
+        <button class="btnLol" id="Assassin">Asesino</button>
+        <button class="btnLol" id="Support">Apoyo</button>
+        <button class="btnLol" id="Fighter">Luchador</button>
+        <button class="btnLol" id="Mage">Mago</button>
+        <button class="btnLol" id="Tank">Tanque</button>
+        <button class="btnLol" id="Marksman">Tirador</button>
+      </div>
+      <div class="container">
+        <div class="champs" id="root" ></div>
+      </div>
     </div>
     <div class="pie">
-   
       Riot games
-      
- 
     </div>
     <script src="./data/lol/lol.js"></script>
     <script src="data.js"></script>
