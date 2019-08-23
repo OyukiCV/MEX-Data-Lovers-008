@@ -24,6 +24,12 @@ height: 130px;
 width: 250px;
 margin-top: -8px;
 }
+
+.nav{
+  background: #C8A971;
+  height: 10vh;
+  margin-top: -15px;
+}
 p.text{
 font-family:PT Serif bold;
 font-weight: bold;

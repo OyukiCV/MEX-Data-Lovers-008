@@ -4,60 +4,38 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="imagenes/favicon.ico" rel="icon" type="image/x-icon" />
-    <title>Data Lovers</title>
-    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif&display=swap" rel="stylesheet">
+    <title>Data Lovers 2.0</title>
+    <link rel="stylesheet" href="style2.css" />
   </head>
   <body>
+<header>
+    <img id="logo-lol"  src="imagenes/logo-lol.png" alt="lol">
+</header>
 
-    <div id="root"></div>
-
-    <div class="pleca-sup">
-
-      <img id="logo-lol"  src="imagenes/logo-lol.png" alt="lol">
-
-    </div>
-    <!--- menu lado izquierdo --->
-    <div class="principal">
-      <div class="menu">
-        <button onclick="location.href='roles.html'" class="btnLol"> Roles</button>
-        <button onclick="location.href='alfabetico.html'" class="btnLol" onclick="" id="campeones">A-Z</button>
-        <button class="btnLol">Wallpapers</button>
-        <button class="btnLol">Noticias</button>
-
-      </div>
-      <!---pantalla ir a jugar--->
-      <div class="jugar-lol" style="height: 300px">
-      <a title="League of legends" href="https://signup.lan.leagueoflegends.com/es/signup/index#/">  <img  src="imagenes/juego.jpg" alt="play-lol" width="480px" height="300px">  </a>
-
-      </div>
-      <!--- campeones favoritos --->
-      <div class="favoritos">
-        <table>
-          <th colspan="2"><p class="text">Campeones </br>Favoritos</p></th>
-          <tr>
-            <td><p class="text">1</td>
-            <td><img src="imagenes/jax.jpg" width="50%"> </td>
-          </tr>
-          <tr>
-            <td><p class="text">2</td>
-            <td><img src="imagenes/ahri.png"  width="50%"/></td>
-          </tr>
-          <tr>
-            <td><p class="text">3</td>
-            <td><img src="imagenes/yasuo.png"  width="50%"/></td>
-          </tr>
-        </table>
-      </div>
-
-    </div>
-    <div class="pie">
-
-      Riot games
+  <div class="menu">
+    <button class="btnLol" id="Assassin">Asesino</button>
+    <button class="btnLol" id="Support">Apoyo</button>
+    <button class="btnLol" id="Fighter">Luchador</button>
+    <button class="btnLol" id="Mage">Mago</button>
+    <button class="btnLol" id="Tank">Tanque</button>
+    <button class="btnLol" id="Marksman">Tirador</button>
+  
+    <select id="orderAlpha" class="abc">
+        <option value="ordenar">Ordenar</option>        
+        <option value="az">A-Z</option>
+        <option value="za">Z-A</option>
+      </select> 
 
 
     </div>
-    <script src="./data/lol/lol.js"></script>
-    <script src="data.js"></script>
-    <!--<script src="main2.js"></script>-->
+     
+    <div class="container" id="root"> </div> 
+   
+
+ 
+  <script src="./data/lol/lol.js"></script>
+   <script src="prueba.js"></script>
+   <!--<script src="main.js"></script>-->
   </body>
 </html>

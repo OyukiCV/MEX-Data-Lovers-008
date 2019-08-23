@@ -1,16 +1,9 @@
-// esta es una función de ejemplo
-// puedes ver como agregamos la función a nuestro objeto global window
-
-//const example = () => {
- // return 'example';
-//};
-
-//window.example = example;
-
 const root = document.getElementById("root")//div en html donde se imprime 
 
 const lolData = Object.values(LOL.data); //data Lol convertida
 let NewLolData = [] //variable vacia 
+
+const btnLol = document.getElementsByClassName('btnLol');
 
 
 //mostrando toda la data
@@ -43,3 +36,6 @@ for (let index = 0; index < btnLol.length; index++) {
     })
    
 }
+
+
+

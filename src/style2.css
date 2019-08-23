@@ -1,0 +1,93 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body,
+html {
+	margin: 0;
+	padding: 0;
+	background: url("imagenes/fondo1.jpg");
+	min-height: 100%;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index: 0;
+}
+h1,
+h2,
+h3,
+p {
+	font-family: 'PT Serif', serif;
+}
+#logo-lol {
+	width: 40%;
+}
+header {
+	background: #0C181F;
+	text-align: center;
+	height: 12vh;
+}
+.menu {
+	padding: 20px;
+    background: #b89960;
+    text-align: center;
+}
+.container {
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.btnLol {
+	font-family: 'PT Serif', serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+	text-align: center;
+	border: 3px solid #33CCCC;
+	background-color: #0C181F;
+	color: #C8A971;
+	line-height: 40px;
+	width: 120px;
+	margin-right: -2;
+	cursor: pointer;
+}
+.champsCard {
+	margin: 1em;
+	text-align: center;
+	border: white solid;
+	background: #b89960;
+	width: 200px;
+	height: 155px;
+	padding: 25px;
+	display: inline-block;
+}
+.champsCard:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+.abc {
+	width: auto;
+	height: 45px;
+	font-family: PT Serif bold;
+	font-weight: bold;
+	font-size: 1.5rem;
+	border: 3px solid #33CCCC;
+	color: #C8A971;
+    background-color: #0C181F;
+    margin-top: 10px;
+   
+}
+@media screen and (min-width: 400px) and (max-width: 1200px) {
+	#logo-lol {
+		width: 18%;
+    }
+    
+    .abc{
+        margin-left: 80px;
+    }
+}
+@media screen and (min-width: 1201px) and (max-width: 1920px) {
+	#logo-lol {
+		width: 10%;
+    }
+    .abc{
+        margin-left: 100px;
+    }
+}
